@@ -1,0 +1,12 @@
+.App
+{
+    text-align:center;
+}
+
+ol{
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 10px;
+}
