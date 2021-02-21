@@ -1,19 +1,24 @@
-import { Component } from "react";
-import FC from "./Components/functionalComponent";  //single component import from dafault of that file
-import {ClassComponent,ClassComponent1} from "./Components/ClassComponent"; //multilpe imports
-import SnippetsComponent from "./Components/SnippetsComponent";
+import './Practical-7/App1.css';
+import ClassComponent from './Practical-7/ClassComponent';
+import FunctionalComponent from './Practical-7/FunctionalComponent';
+import ReactFragment from './Practical-7/ReactFragment';
+
+
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-      <FC />
-      <ClassComponent/>
-      <ClassComponent1/>
-      <SnippetsComponent/>
-
+    <>
      
-    </div>
-  );
+      <div className="function">
+      <FunctionalComponent/>
+      </div>
+      <div className="class">
+      <ClassComponent/>
+      </div>
+
+      </>
+   
+  ); 
 }
 
 export default App;
