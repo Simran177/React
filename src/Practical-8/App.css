@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+}
+.btn1{
+    background-color: lightgreen;
+}
+.btn2{
+    background-color: lightblue;
+}
+.btn3{
+    background-color: lightcoral;
+}
+.btn1 , .btn2 , .btn3{
+   font-size: large;
+   border-radius: 20px;
+   border:none;
+   margin-left: 10px;
+   color:white;
+   padding: 25px;
+}
