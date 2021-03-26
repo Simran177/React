@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
-import StateObject from "./Components/StateObject";
+import DisplayData from "./Components/DisplayData";
 
 
 function App() {
 
   return (
-  <StateObject/>
+  <DisplayData/>
 
   );
 
