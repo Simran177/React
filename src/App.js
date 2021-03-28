@@ -1,12 +1,11 @@
 import React from "react";
-import "./App.css";
-import DisplayData from "./Components/DisplayData";
+import DynamicTable from "./Practical-9/DynamicTable";
 
 
 function App() {
 
   return (
-  <DisplayData/>
+  <DynamicTable/>
 
   );
 
